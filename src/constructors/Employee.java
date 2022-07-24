@@ -31,4 +31,9 @@ public class Employee {
                 ",company Name=" + companyName+
                 '}';
     }
+
+    public static void someStaticMethod(){  // the static method can be called with class name
+      //  System.out.println(name);  // which name do I have to print out? there are more than one copies
+        System.out.println(companyName);
+    }
 }
